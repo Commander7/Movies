@@ -21,7 +21,7 @@ export default function ArkmodeSwitch() {
           onClick={() => setTheme("dark")}
           className="text-xl cursor-pointer hover:text-amber-400"
         />
-      ))}
+      ))} 
     </div>
   );
 }
