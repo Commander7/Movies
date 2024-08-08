@@ -1,5 +1,5 @@
 import Results from " @/components/Results";
-import { resolve } from "styled-jsx/css";
+
 
 const API_KEY = process.env.API_KEY;
 

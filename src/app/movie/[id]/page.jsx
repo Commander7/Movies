@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+
 
 export default async function MoviePage({ params }) {
   const movieId = params.id;
