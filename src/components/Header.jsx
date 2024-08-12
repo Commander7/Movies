@@ -1,5 +1,6 @@
-import Link from "next/link.js";
-import Menu from "./Menu.jsx";
+import Link from "next/link";
+
+import Menu from "./Menu";
 import {AiFillHome} from 'react-icons/ai';
 import {BsFillInfoCircleFill} from 'react-icons/bs';
 import ArkmodeSwitch from "./ArkmodeSwitch.jsx";
@@ -14,7 +15,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <ArkmodeSwitch/>
        
-        <Link href={"/"} className="flex gap-1 items-center">
+        <Link href={'/'} className="flex gap-1 items-center">
            <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">Your</span>
            <span className="text-xl hidden sm:inline">Movies</span>
 
